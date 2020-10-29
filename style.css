@@ -92,7 +92,7 @@ a {
 	animation-delay: 2s;
 }
 #hero h1:nth-child(3) {
-	/* animation: text_reveal_name .5s ease forwards; */
+	animation: text_reveal_name .5s ease forwards;
 	animation-delay: 3s;
 }
 
@@ -134,6 +134,13 @@ a {
 @keyframes text_reveal {
 	100% {
 		color: white;
+	}
+}
+
+@keyframes text_reveal_name {
+	100% {
+		color: crimson;
+		font-weight: bolder;
 	}
 }
 /* End Keyframes */
